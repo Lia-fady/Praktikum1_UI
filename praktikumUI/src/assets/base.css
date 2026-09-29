@@ -1,0 +1,36 @@
+:root {
+  font-family: 'DM Sans', 'Trebuchet MS', sans-serif;
+  color: #20251f;
+  background: #fffefa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --ink: #20251f;
+  --muted: #70766d;
+  --line: #e5e7df;
+  --paper: #fffefa;
+  --paper-soft: #f5f6ef;
+  --forest: #244b3b;
+  --forest-dark: #19382d;
+  --lime: #d8ed83;
+  --coral: #e76549;
+  --serif: 'DM Serif Display', Georgia, serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 320px;
+  color: var(--ink);
+  background: var(--paper);
+  font-size: 15px;
+  line-height: 1.55;
+}
